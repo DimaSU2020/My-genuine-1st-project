@@ -1,0 +1,206 @@
+body {
+  background: #E5E5E5;
+}
+.main {
+  display: flex;
+  widows: 1340px;
+  height:640px;
+  background: #F9F6F1;
+}
+.main-menu {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top:50px;
+  left: 240px;
+}
+.for_men, .for_women, .for_kids {
+  font-family: -apple-system, Montserrat;
+  font-style: lighter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 5px;
+} 
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5px solid black;
+  margin-right: 25px;
+  margin-top: 3px;
+}  
+.logo {
+  font-family: -apple-system, Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-right: 80px;
+}
+.payment, .delivery {
+  font-family: -apple-system, Montserrat;
+  font-style: lighter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 25px;
+}
+.triangle_left_cursor {
+	width: 0;
+	height: 0;
+	border-top: 9px solid transparent;
+	border-right: 18px solid #D7B399;;
+  border-bottom: 9px solid transparent;
+  margin-left: 15px;
+}
+.rectangle_cursor {
+	width: 30px;
+	height: 18px;
+  background: #D7B399;
+}
+.cursor {
+  display: flex;
+  position: absolute;
+  bottom: 3px;
+  right: 14px;
+  font-family: -apple-system, Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.advertising {
+  align-content: flex-start;
+  position: absolute;
+  top: 216px;
+  left: 200px;
+}
+.first_advertising {
+  font-family: -apple-system, Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.second_advertising {
+  font-family: -apple-system, Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.next_step {
+  width: 220px;
+  height:37px;
+  background-color: #D7B399;
+  border: 1px solid #D7B399;
+}
+.to_do_it {
+  text-align: center;
+  align-self: center;
+  font-family: -apple-system, Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em; 
+  color: white;
+  margin-top: 8px;
+  border: 1px solid #D7B399;
+}
+.container_shoes {
+  position: relative;
+  display: inline-block;
+  top: 216px;
+  left: 625px;
+  width: 556px;
+  height:350px;
+  background: #F9F6F1;
+}
+.price {
+  font-family: -apple-system, Montserrat;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 15px;
+  text-decoration: line-through;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: black;
+  position: absolute;
+  right: -160px;
+  top: 40px;
+  width: 100%;
+}
+.discount_price {
+  font-family: -apple-system, Montserrat;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #D84033;
+  position: absolute;
+  right: -127px;
+  top: 100px;
+  width: 100%;
+}
+.indicators_block {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  left: 595px;
+  top: 595px;
+  width: 200px;
+  height: 10px;
+}
+.indicator {
+  width: 40px;
+  height: 7px;
+  background: rgba(194, 194, 194, 0.904);
+  margin-right: 12px;
+}
+.indicator_color {
+  width: 40px;
+  height: 7px;
+  background: #D7B399;
+  margin-right: 12px;
+}
+.footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  widows: 1340px;
+  height:150px;
+  background: rgb(0, 0, 0);
+}
+.delivery_footer {
+  font-family: -apple-system, Montserrat;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.gift_footer {
+  font-family: -apple-system, Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 7px;
+}
